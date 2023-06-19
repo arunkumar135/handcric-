@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handcricket</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-color: yellow;">
+    <center><h1 style="font-size: 45px; font-weight: bold; color:blue;">Hand Cricket Game</h1></center><br><br><br>
+    <input style="height:40px; width:200px; border-radius: 8px;" type="button" value="New Game" onclick="window.location.reload()">
+    <div class="screen">
+       <pre style="font-size: 30px; font-weight: bolder; font-family: cursive; color:orangered">     YOU (<span id="bb">Batting</span>)                  COM</pre><br>
+       <div class="you">
+        <p style="padding-top: 70px;">Score: <span id="ys">0</span></p>
+        <p>Total Score: <span id="yt">0</span></p>
+        <p id="sta" style="margin-left: 60px; margin-top: -20px; font-size: 50px; font-weight: bolder;"></p>
+       </div>
+       <div class="com">
+        <p style="padding-top: 70px;">Score: <span id="cs">0</span></p>
+        <p>Total Score: <span id="ct">0</span></p>
+
+       </div>
+
+    </div>
+    <div class="h"><h1 id="wins" ></h1></div>
+    <div class="but">
+        <input style="margin-left: 410px;" type="submit" value="1" onclick="one()">
+        <input type="submit" value="2" onclick="two()">
+        <input type="submit" value="3" onclick="thr()">
+        <input type="submit" value="4" onclick="fou()">
+        <input type="submit" value="5" onclick="fiv()">
+        <input type="submit" value="6" onclick="six()">
+    </div>
+    <script src="design.js"></script>
+</body>
+</html>

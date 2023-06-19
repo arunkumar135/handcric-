@@ -1,0 +1,41 @@
+.screen{
+    width:800px;
+    height:300px;
+    background-color: green;
+    margin-left: 350px;
+    margin-top: -100px;
+
+}
+input{
+    width:70px;
+    height:70px;
+    font-size: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+
+}
+.you{
+    width:400px;
+    height:250px;
+    margin-top: -70px;
+}
+.com{
+    width:400px;
+    height:250px;
+    margin-top: -286px;
+    margin-left: 400px;
+}
+p{
+    color:white;
+    font-size: 32px;
+    margin-left: 40px;
+}
+.but{
+    height:75px;
+    margin-top: 100px;
+}
+.h{
+    width:fit-content;
+    height:40px;
+    margin: auto;
+}
